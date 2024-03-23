@@ -9,7 +9,7 @@ intents = disnake.Intents.default()
 intents.message_content = True  # 메시지 내용 인텐트 활성화
 bot = commands.Bot(command_prefix="!", intents=intents)
 
-token = "" # 봇토큰
+token = "MTIxODU1NTEwNTA3NTM5NjYwOA.GaXREo.scknOSFTiaX6GXWTCxZ-du5WER9KC4i_8gLMhs" # 봇토큰
 
 def load_config():
     with open('config.json', 'r', encoding='utf-8') as file:
